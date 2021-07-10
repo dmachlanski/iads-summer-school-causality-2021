@@ -1,4 +1,4 @@
-\documentclass[obeyspaces,aspectratio=43]{$documentclass$}
+\documentclass[obeyspaces,aspectratio=169]{$documentclass$}
 
 $if(theme)$
 \usetheme{$theme$}
@@ -174,8 +174,8 @@ $endfor$
 \setbeamertemplate{navigation symbols}{}
 \usebackgroundtemplate{
   \tikz[overlay,remember picture]
-  \node[opacity=0.4, at=(current page.north east),anchor=north east] {
-    \includegraphics[width=0.17\paperwidth]{graphics/nn.jpg}};
+  \node[opacity=0.4, at=(current page.south east), anchor=south east] {
+    \includegraphics[width=0.4\paperwidth]{graphics/graph.png}};
 }
 
 \DeclareMathOperator*{\argmax}{arg\,max}
@@ -191,6 +191,9 @@ $if(subtitle)$
 $endif$
 $if(author)$
 \author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+$if(institute)$
+\institute{$institute$}
 $endif$
 \date{$date$}
 
