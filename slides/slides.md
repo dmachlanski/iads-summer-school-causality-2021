@@ -352,6 +352,9 @@ $$\hat{\tau}(x) = \hat{e}(x)\hat{\tau}_0(x) + (1 - \hat{e}(x))\hat{\tau}_1(x)$$
   * CI helps ML with OOD generalisation (domain adaptation)
 * Assumptions are important and must be considered in applications
 
+## Acknowledgements
+This course builds heavily on the materials from *Introduction to Machine Learning for Causal Analysis Using Observational Data* online course, delivered on June 22-23 2021 by Professor Paul Clarke, Dr Spyros Samothrakis and Damian Machlanski.
+
 ## References
 
 \footnotesize
